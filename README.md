@@ -61,11 +61,11 @@ Gerçek bir API kullanarak frontend uygulamalarında veri yönetimi pratiği kaz
 
 ---
 
-### 📂 Proje Yapısı
+## 📂 Proje Yapısı
 
 Proje modern bir React mimarisi kullanılarak geliştirilmiştir.
 
-
+```text
 AirPeek
 │
 ├── src
@@ -74,25 +74,30 @@ AirPeek
 │   └── App.jsx
 │
 └── public
-[!IMPORTANT]
 
+[!IMPORTANT]
 Bu proje API kullanımı öğrenmek amacıyla geliştirilmiştir ve ileride daha gelişmiş özelliklerle genişletilebilir.
 
 ⚙️ Kurulum ve Çalıştırma
-1️⃣ Projeyi Klonlayın ```bash
-git clone https://github.com/kullaniciadi/AirPeek.git
 
+1️⃣ Projeyi Klonlayın
 
-2️⃣ **Proje Klasörüne Girin** ```bash
+# Depoyu bilgisayarınıza indirin
+git clone [https://github.com/kullaniciadi/AirPeek.git](https://github.com/kullaniciadi/AirPeek.git)
+# Proje dizinine gidin
 cd AirPeek
-3️⃣ Bağımlılıkları Yükleyin ```bash
+
+2️⃣ Bağımlılıkları Yükleyin
+
+# Gerekli paketleri kurun
 npm install
 
+3️⃣ Projeyi Başlatın
 
-4️⃣ **Projeyi Başlatın** ```bash
+# Yerel sunucuyu çalıştırın
 npm run dev
-📈 Geliştirme Fikirleri
 
+📈 Geliştirme Fikirleri
 - 5 günlük hava tahmini ekleme
 
 - Konum bazlı otomatik hava durumu
