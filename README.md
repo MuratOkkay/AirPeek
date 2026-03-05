@@ -74,28 +74,25 @@ AirPeek
 │   └── App.jsx
 │
 └── public
-
 [!IMPORTANT]
+
 Bu proje API kullanımı öğrenmek amacıyla geliştirilmiştir ve ileride daha gelişmiş özelliklerle genişletilebilir.
 
 ⚙️ Kurulum ve Çalıştırma
-1️⃣ Projeyi Klonlayın
+1️⃣ Projeyi Klonlayın ```bash
+git clone https://github.com/kullaniciadi/AirPeek.git
 
-Bash
-git clone [https://github.com/kullaniciadi/AirPeek.git](https://github.com/kullaniciadi/AirPeek.git)
-2️⃣ Proje Klasörüne Girin
 
-Bash
+2️⃣ **Proje Klasörüne Girin** ```bash
 cd AirPeek
-3️⃣ Bağımlılıkları Yükleyin
-
-Bash
+3️⃣ Bağımlılıkları Yükleyin ```bash
 npm install
-4️⃣ Projeyi Başlatın
 
-Bash
+
+4️⃣ **Projeyi Başlatın** ```bash
 npm run dev
 📈 Geliştirme Fikirleri
+
 - 5 günlük hava tahmini ekleme
 
 - Konum bazlı otomatik hava durumu
